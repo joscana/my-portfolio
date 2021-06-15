@@ -8,7 +8,7 @@ import node from '../icons/node.svg'
 import express from '../icons/express.svg'
 import react from '../icons/react-js.svg'
 import redux from '../icons/redux.svg'
-import '../App.css'
+import '../App.scss'
 
 function Skills(props) {
     return (

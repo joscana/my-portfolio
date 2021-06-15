@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+// $background: #D8BFD8;
+// $skills-background: #a68fa7;
+
+$background: #D8BFD8;
+$skills-background: #a68fa7;
+
+
 html {
-  background-color: thistle;
+  background-color: $background;
 }
 
 .App {
@@ -24,9 +31,18 @@ html {
   align-self: center;
 }
 
+.skills-container {
+  background-color: $skills-background;
+}
+
 .Skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   height: 500px;
+}
+
+.certificate {
+  height: auto;
+  width: 60%;
 }
