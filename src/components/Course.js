@@ -13,7 +13,9 @@ function Course(props) {
 
     return (
         <div className="Course-container">
-            <h1>{props.title}</h1>
+            <a href={props.link}>
+                <h1>{props.title}</h1>
+            </a>
             <ul className='course-bullets'>
                 {props.bullets.map((bullet) => {
                     return <li>{bullet}</li>
