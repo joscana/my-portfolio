@@ -3,9 +3,9 @@
 // $background: #D8BFD8;
 // $skills-background: #a68fa7;
 
-$background: #D8BFD8;
-$skills-background: #a68fa7;
-
+$background: #0027cb;
+$skills-background: #917eff;
+$white-font: #ffffff;
 
 html {
   background-color: $background;
@@ -21,6 +21,10 @@ html {
 
 .Name {
   font-family: 'Lato', sans-serif;
+}
+
+.Home {
+  color: $white-font;
 }
 
 .icon {
@@ -46,3 +50,8 @@ html {
   height: auto;
   width: 60%;
 }
+
+.course-bullets {
+  list-style: none;
+}
+
