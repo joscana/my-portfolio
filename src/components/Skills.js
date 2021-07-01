@@ -15,15 +15,33 @@ function Skills(props) {
         <div className="skills-container">
             <h1>Skills</h1>
             <div className="Skills">
-                <img className="icon" src={html5} />
-                <img className="icon" src={css3} />
-                <img className="icon" src={js_icon} />
-                <img className="icon" src={sass} />
-                <img className="icon" src={git} />
-                <img className="icon" src={node} />
-                <img className="icon" src={express} />
-                <img className="icon" src={react} />
-                <img className="icon" src={redux} />
+                <a href='https://developer.mozilla.org/en-US/docs/Glossary/HTML5'>
+                    <img className="icon" src={html5} />
+                </a>
+                <a href='https://developer.mozilla.org/en-US/docs/Web/CSS'>
+                    <img className="icon" src={css3} />
+                </a>
+                <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+                    <img className="icon" src={js_icon} />
+                </a>
+                <a href='https://sass-lang.com/documentation'>
+                    <img className="icon" src={sass} />
+                </a>
+                <a href='https://git-scm.com/doc'>
+                    <img className="icon" src={git} />
+                </a>
+                <a href='https://nodejs.org/en/docs/'>
+                    <img className="icon" src={node} />
+                </a>
+                <a href='https://expressjs.com/'>
+                    <img className="icon" src={express} />
+                </a>
+                <a href='https://reactjs.org/docs/getting-started.html'>
+                    <img className="icon" src={react} />
+                </a>
+                <a href='https://redux.js.org/'>
+                    <img className="icon" src={redux} />
+                </a>
             </div>
         </div>
     )

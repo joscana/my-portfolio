@@ -3,6 +3,7 @@ import developer from '../icons/developer.svg'
 import Skills from './Skills'
 import About from './About'
 import Education from './Education'
+import Contact from './Contact'
 import '../App.scss'
 
 function Home(props) {
@@ -14,6 +15,7 @@ function Home(props) {
             <Skills />
             <Education />
             <About />
+            <Contact />
         </div>
     )
 }

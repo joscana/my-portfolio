@@ -19,7 +19,7 @@ function Course(props) {
                     return <li>{bullet}</li>
                 })}
             </ul>
-                {show ? <ExpandLessIcon onClick={handleButtonClick} /> : <ExpandMoreIcon onClick={handleButtonClick}/> }
+            {show ? <ExpandLessIcon onClick={handleButtonClick} /> : <ExpandMoreIcon onClick={handleButtonClick} />}
             {show ? <img className='certificate' src={props.cert} /> : null}
         </div>
     )
