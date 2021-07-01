@@ -22,7 +22,9 @@ function Course(props) {
                 })}
             </ul>
             {show ? <ExpandLessIcon onClick={handleButtonClick} /> : <ExpandMoreIcon onClick={handleButtonClick} />}
-            {show ? <img className='certificate' src={props.cert} /> : null}
+            <div>
+                {show ? <img className='certificate' src={props.cert} /> : null}
+            </div>
         </div>
     )
 }

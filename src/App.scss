@@ -4,7 +4,7 @@
 // $skills-background: #a68fa7;
 
 $background: #0027cb;
-$skills-background: #917eff;
+$alt-background: #917eff;
 $white-font: #ffffff;
 
 html {
@@ -28,8 +28,9 @@ html {
 }
 
 .icon {
-  height: auto;
+  height: 100px;
   width: 100px;
+  object-fit: contain;
   margin: 10px;
   justify-self: center;
   align-self: center;
@@ -40,7 +41,11 @@ html {
 }
 
 .skills-container {
-  background-color: $skills-background;
+  background-color: $alt-background;
+}
+
+.About {
+  background-color: $alt-background;
 }
 
 .Skills {

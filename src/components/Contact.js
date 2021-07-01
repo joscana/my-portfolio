@@ -9,7 +9,7 @@ import linkedin from '../icons/linkedin.svg'
 
 function Contact(props) {
     return (
-        <div className="About">
+        <div className="Contact">
             <h1> Contact Me </h1>
             <a href='https://github.com/joscana'>
                 <img className='contact icon' src={gitHub} />
