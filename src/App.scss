@@ -6,6 +6,9 @@
 $background: #0027cb;
 $alt-background: #917eff;
 $white-font: #ffffff;
+//$text-font: 
+$text-size: 20px;
+
 
 html {
   background-color: $background;
@@ -67,5 +70,13 @@ html {
 a {
   color: white;
   text-decoration: none;
+}
+
+p {
+  font-size: $text-size;
+}
+
+li {
+  font-size: $text-size;
 }
 
