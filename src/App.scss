@@ -51,12 +51,23 @@ html {
   background-color: $alt-background;
 }
 
+.profile{
+  height: 500px;
+  width: auto;
+}
+
 .Skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   height: 500px;
 }
+
+//.Course-container {
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: space-between;
+//}
 
 .certificate {
   height: auto;
